@@ -9,12 +9,6 @@
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
 
-
-"Hello Clojure"
-"Hello World"
-"This is fantastic"
-"I love it!"
-
 42 ; that's the number
 1/3
 42/2
@@ -77,6 +71,8 @@
 (doc mod)
 
 pst
+
+(+ 2 3)
 
 ; Here we go on: https://clojure.org/guides/learn/functions
 ; 
