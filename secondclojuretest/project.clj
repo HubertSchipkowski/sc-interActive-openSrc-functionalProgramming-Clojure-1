@@ -12,7 +12,7 @@
 
 "Hello Clojure"
 "Hello World"
-"This is fantastic!"
+"This is fantastic"
 "I love it!"
 
 42 ; that's the number
@@ -21,7 +21,7 @@
 2r1100 ; different number systems are very easy to write
 7r4352
 \h 
-#" [0 | 1]" ; RegExs! Great! Thank's to java.util.regex.Pattern
+#"[0 | 1]" ; RegExs! Great! Thank's to java.util.regex.Pattern
 
 (+ 23123 34234) ; prefix notation, I love it!
 
@@ -69,7 +69,14 @@
 (+ 7654 1234)
 (/ (* (+ 7 3) (+ 4 5)) 10) ; a wonderful expression tree...
 
+(doc rem)
+(rem 7 3) ; so leightweight is it to get a remainder
 
+(mod 7 3)
 
+(doc mod)
 
+pst
 
+; Here we go on: https://clojure.org/guides/learn/functions
+; 

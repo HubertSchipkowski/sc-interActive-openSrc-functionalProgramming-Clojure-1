@@ -905,3 +905,42 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 9
 clj꞉user꞉> 
+-------------------------
+clojure.core/rem
+([num div])
+  remainder of dividing numerator by denominator.
+nil
+clj꞉user꞉> 
+; Syntax error (ArityException) compiling rem at (project.clj:73:1).
+; Wrong number of args (1) passed to: clojure.core/rem--inliner--5626
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval39494 (form-init4670447962156020832.clj:73).
+; clojure.core$_SLASH_ cannot be cast to java.lang.Number
+clj꞉user꞉> 
+; Syntax error (ArityException) compiling rem at (project.clj:73:1).
+; Wrong number of args (3) passed to: clojure.core/rem--inliner--5626
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+-------------------------
+clojure.core/mod
+([num div])
+  Modulus of num and div. Truncates toward negative infinity.
+nil
+clj꞉user꞉> 
+; Execution error (ArityException) at user/eval41930 (form-init4670447962156020832.clj:79).
+; Wrong number of args (0) passed to: clojure.repl/find-doc
+clj꞉user꞉> 
+; Syntax error compiling at (project.clj:79:1).
+; Unable to resolve symbol: REPL in this context
+clj꞉user꞉> 
+#function[clojure.repl/pst]
+clj꞉user꞉> 
+#function[clojure.repl/pst]
+clj꞉user꞉> 
+#"[0 | 1]"
+clj꞉user꞉> 
