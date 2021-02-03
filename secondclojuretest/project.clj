@@ -8,3 +8,18 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+
+
+"Hello Clojure"
+"Hello World"
+"This is fantastic!"
+"I love it!"
+
+42 ; that's the number
+1/3
+42/2
+2r1100 ; different number systems are very easy to write
+7r4352
+\h 
+#" [0 | 1]" ; RegExs! Great! Thank's to java.util.regex.Pattern
+
