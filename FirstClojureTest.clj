@@ -1,4 +1,0 @@
-
-"Hello Clojure!"
-
-22
