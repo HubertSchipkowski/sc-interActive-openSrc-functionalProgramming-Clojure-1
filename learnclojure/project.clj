@@ -22,8 +22,14 @@
 (greet "Hubert")
 
 (defn doubler [zahl1 zahl2] (* (+ zahl1 zahl2) 2))
-(defn singleDoubler [zahl] (str zahl" * 2 = "(* zahl 2)))
+(defn singleDoubler [zahl] (* zahl 2))
 (doubler 2 3)
 (singleDoubler (doubler 2 3))
+(- 560 3)
 
-; Here we go on: https://clojure.org/guides/learn/functions
+(doubler (- (singleDoubler(doubler 4 6)) 30) 45)
+
+#(+ 6 %)
+#([6])
+
+
