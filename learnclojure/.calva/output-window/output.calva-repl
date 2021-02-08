@@ -18,89 +18,72 @@
 clj꞉learnclojure.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉learnclojure.core꞉> 
-42
+#function[user/eval5233/fn--5234]
 clj꞉user꞉> 
-50
-clj꞉user꞉> 
--160
-clj꞉user꞉> 
-#'user/name
-; WARNING: name already refers to: #'clojure.core/name in namespace: user, being replaced by: #'user/name
-clj꞉user꞉> 
-#'user/person
-clj꞉user꞉> 
-#'user/greet
-clj꞉user꞉> 
-#'user/person
-clj꞉user꞉> 
-#'user/greet
-clj꞉user꞉> 
-; Execution error (ArityException) at user/eval6976 (form-init5894608176429257854.clj:22).
-; Wrong number of args (0) passed to: user/greet
-clj꞉user꞉> 
-#'user/greet
-clj꞉user꞉> 
-"Hello, Hubert"
-clj꞉user꞉> 
-; Syntax error compiling at (project.clj:24:1).
-; Unable to resolve symbol: doc in this context
-clj꞉user꞉> 
-nil
-clj꞉user꞉> 
--------------------------
-user/name
-nil
-clj꞉user꞉> 
--------------------------
-user/name
-nil
-clj꞉user꞉> 
-"Hello, Hubert"
-clj꞉user꞉> 
-; Syntax error compiling at (project.clj:26:1).
+; Syntax error compiling at (project.clj:30:1).
 ; Unable to resolve symbol: doubler in this context
 clj꞉user꞉> 
 ; Syntax error compiling at (project.clj:26:1).
 ; Unable to resolve symbol: doubler in this context
 clj꞉user꞉> 
-#'user/greet
-clj꞉user꞉> 
-"Hello, Hubert"
-clj꞉user꞉> 
-#'user/doubler
-clj꞉user꞉> 
-"2 + 3* 2 = 10"
-clj꞉user꞉> 
-"2 + 3* 2 = 10"
-clj꞉user꞉> 
-"2 + 3* 2 = 10"
+; Syntax error compiling at (project.clj:27:1).
+; Unable to resolve symbol: singleDoubler in this context
 clj꞉user꞉> 
 #'user/doubler
-clj꞉user꞉> 
-"2 + 3 * 2 = 10"
-clj꞉user꞉> 
-#'user/doubler
-clj꞉user꞉> 
-#'user/doubler
-clj꞉user꞉> 
-#'user/doubler
-clj꞉user꞉> 
-"(2 + 3) * 2 = 10"
 clj꞉user꞉> 
 #'user/singleDoubler
 clj꞉user꞉> 
-; Execution error (ArityException) at user/eval7011 (form-init5894608176429257854.clj:27).
-; Wrong number of args (3) passed to: user/singleDoubler
+20
 clj꞉user꞉> 
-; Execution error (ArityException) at user/eval7013 (form-init5894608176429257854.clj:27).
-; Wrong number of args (4) passed to: user/singleDoubler
+557
 clj꞉user꞉> 
-; Execution error (ClassCastException) at user/singleDoubler (form-init5894608176429257854.clj:25).
-; java.lang.String cannot be cast to java.lang.Number
+110
 clj꞉user꞉> 
-#'user/doubler
+#function[user/eval5495/fn--5496]
 clj꞉user꞉> 
-10
+#function[user/eval5499/fn--5500]
 clj꞉user꞉> 
-"10 * 2 = 20"
+#function[user/eval5505/fn--5506]
+clj꞉user꞉> 
+#function[user/eval5511/fn--5512]
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:33:5).
+; Reader tag must be a symbol
+clj꞉user꞉> 
+()
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:33:6).
+; Reader tag must be a symbol
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:33:5).
+; Reader tag must be a symbol
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:33:5).
+; Reader tag must be a symbol
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:33:4).
+; Reader tag must be a symbol
+clj꞉user꞉> 
+#'user/framelevelone
+clj꞉user꞉> 
+; Syntax error compiling at (project.clj:37:5).
+; Unable to resolve symbol: startervalue in this context
+clj꞉user꞉> 
+#'user/suitcase
+clj꞉user꞉> 
+#'user/suitcase
+clj꞉user꞉> 
+; Syntax error compiling def at (project.clj:39:1).
+; Too many arguments to def
+clj꞉user꞉> 
+#'user/closure
+clj꞉user꞉> 
+localvalue still available
+nil
+clj꞉user꞉> 
+localvalue still available
+nil
+clj꞉user꞉> 
+localvalue still available
+nil
 clj꞉user꞉> 
