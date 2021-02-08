@@ -36,7 +36,7 @@
   (fn [secondaryvalue] ; frameleveltwo
     (println primaryvalue secondaryvalue))) 
 
-(def closure (suitcase "localvalue")) ; this stores localvalues for usage beyond it's local scope
+(def closure (suitcase "localvalue")) ; this stores localvalues for usage beyond their local scope
 
 (closure "still available")
 
