@@ -19,7 +19,7 @@
 
 (defn greet [name] (str "Hello, " name))
 
-(greet "Hubert")
+(greet "Timothy")
 
 (defn doubler [zahl1 zahl2] (* (+ zahl1 zahl2) 2))
 (defn singleDoubler [zahl] (* zahl 2))
