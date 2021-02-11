@@ -1,20 +1,18 @@
 # learnclojure
 
-FIXME: description
+A first repo to document the Clojure learning process.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+
 
 ## Usage
 
-FIXME: explanation
 
-    $ java -jar learnclojure-0.1.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+
 
 ## Examples
 
@@ -30,7 +28,7 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2021 FIXME
+Copyright © 2021 Hubert Schipkowski
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
