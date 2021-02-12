@@ -30,13 +30,13 @@
 (doubler (- (singleDoubler(doubler 4 6)) 30) 45)
 
 
-; it's all about nesting functions and building (mutual) recursive function trees:
+; it's all about nested functions and building (mutual) recursive function trees:
 
 (defn suitcase [primaryvalue] ; framelevelone
   (fn [secondaryvalue] ; frameleveltwo
     (println primaryvalue secondaryvalue))) 
 
-(def closure (suitcase "localvalue")) ; "closures" store localvalues for usage beyond their local scope
+(def closure (suitcase "localvalue")) ; "closures" store localvalues for usage beyond their local scope:
 
 (closure "still available")
 
