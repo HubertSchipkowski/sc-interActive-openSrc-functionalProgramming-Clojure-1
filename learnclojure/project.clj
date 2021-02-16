@@ -15,6 +15,12 @@
 
 (- 32 192)
 
+(* 3 4)
+
+; nice expression trees:
+(* (+ 2 5) (- (+ 2 2) 1)) 
+
+
 
 
 (defn greet [name] (str "Hello, " name))

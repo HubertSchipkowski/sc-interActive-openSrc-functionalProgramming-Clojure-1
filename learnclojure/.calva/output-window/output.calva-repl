@@ -18,72 +18,21 @@
 clj꞉learnclojure.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉learnclojure.core꞉> 
-#function[user/eval5233/fn--5234]
+12
 clj꞉user꞉> 
-; Syntax error compiling at (project.clj:30:1).
-; Unable to resolve symbol: doubler in this context
+28
 clj꞉user꞉> 
-; Syntax error compiling at (project.clj:26:1).
-; Unable to resolve symbol: doubler in this context
+#'user/greet
 clj꞉user꞉> 
-; Syntax error compiling at (project.clj:27:1).
-; Unable to resolve symbol: singleDoubler in this context
+#'user/greet
 clj꞉user꞉> 
-#'user/doubler
+28
 clj꞉user꞉> 
-#'user/singleDoubler
+21
 clj꞉user꞉> 
-20
+21
 clj꞉user꞉> 
-557
+#'user/greet
 clj꞉user꞉> 
-110
-clj꞉user꞉> 
-#function[user/eval5495/fn--5496]
-clj꞉user꞉> 
-#function[user/eval5499/fn--5500]
-clj꞉user꞉> 
-#function[user/eval5505/fn--5506]
-clj꞉user꞉> 
-#function[user/eval5511/fn--5512]
-clj꞉user꞉> 
-; Syntax error reading source at (REPL:33:5).
-; Reader tag must be a symbol
-clj꞉user꞉> 
-()
-clj꞉user꞉> 
-; Syntax error reading source at (REPL:33:6).
-; Reader tag must be a symbol
-clj꞉user꞉> 
-; Syntax error reading source at (REPL:33:5).
-; Reader tag must be a symbol
-clj꞉user꞉> 
-; Syntax error reading source at (REPL:33:5).
-; Reader tag must be a symbol
-clj꞉user꞉> 
-; Syntax error reading source at (REPL:33:4).
-; Reader tag must be a symbol
-clj꞉user꞉> 
-#'user/framelevelone
-clj꞉user꞉> 
-; Syntax error compiling at (project.clj:37:5).
-; Unable to resolve symbol: startervalue in this context
-clj꞉user꞉> 
-#'user/suitcase
-clj꞉user꞉> 
-#'user/suitcase
-clj꞉user꞉> 
-; Syntax error compiling def at (project.clj:39:1).
-; Too many arguments to def
-clj꞉user꞉> 
-#'user/closure
-clj꞉user꞉> 
-localvalue still available
-nil
-clj꞉user꞉> 
-localvalue still available
-nil
-clj꞉user꞉> 
-localvalue still available
-nil
+21
 clj꞉user꞉> 
