@@ -46,4 +46,12 @@
 
 (closure "still available")
 
+[2,3,1] ; a nice vector
+
+(def guitarDimensions ["nn","fz","sz","fb","ts","bz"])
+
+(get guitarDimensions 0)
+(get guitarDimensions 1)
+(str (guitarDimensions 2))
+(str (guitarDimensions 5))
 
