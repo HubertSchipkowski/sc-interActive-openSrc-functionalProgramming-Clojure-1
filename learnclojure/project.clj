@@ -55,3 +55,4 @@
 (str (guitarDimensions 2))
 (str (guitarDimensions 5))
 
+(str (guitarDimensions 4))

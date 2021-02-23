@@ -18,58 +18,14 @@
 clj꞉learnclojure.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉learnclojure.core꞉> 
-21
-clj꞉user꞉> 
-21
-clj꞉user꞉> 
-; Syntax error compiling at (project.clj:28:1).
-; Unable to resolve symbol: greet in this context
-clj꞉user꞉> 
-#'user/greet
-clj꞉user꞉> 
-"Hello, Timothy"
-clj꞉user꞉> 
-#'user/doubler
-clj꞉user꞉> 
-#'user/singleDoubler
-clj꞉user꞉> 
-10
-clj꞉user꞉> 
-20
-clj꞉user꞉> 
-110
-clj꞉user꞉> 
-#'user/suitcase
-clj꞉user꞉> 
-; Syntax error compiling at (project.clj:47:1).
-; Unable to resolve symbol: closure in this context
-clj꞉user꞉> 
-#'user/closure
-clj꞉user꞉> 
-localvalue still available
-nil
-clj꞉user꞉> 
-[2 3 1]
-clj꞉user꞉> 
-["nn" "fz" "sz" "fb" "ts" "bz"]
-clj꞉user꞉> 
 #'user/guitarDimensions
 clj꞉user꞉> 
-"nn"
-clj꞉user꞉> 
-"fz"
-clj꞉user꞉> 
-sz
-nil
-clj꞉user꞉> 
-sz
-nil
-clj꞉user꞉> 
-"fz"
-clj꞉user꞉> 
-"[\"nn\" \"fz\" \"sz\" \"fb\" \"ts\" \"bz\"]2"
-clj꞉user꞉> 
-"sz"
+; Execution error (IndexOutOfBoundsException) at user/eval5478 (form-init4394680136693966125.clj:58).
+; null
 clj꞉user꞉> 
 "bz"
+clj꞉user꞉> 
+"ts"
+clj꞉user꞉> 
+"ts"
 clj꞉user꞉> 
