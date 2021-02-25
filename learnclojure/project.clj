@@ -56,3 +56,8 @@
 (str (guitarDimensions 5))
 
 (str (guitarDimensions 4))
+
+["nn", (str (guitarDimensions 0))] ; fantastic, a hard-coded String and a function, 
+; that returns a String from a previouly defined other vector, side by side as vector components
+; with, so to speak, no syntax cluttering around what is meant. Beautiful.
+; 
