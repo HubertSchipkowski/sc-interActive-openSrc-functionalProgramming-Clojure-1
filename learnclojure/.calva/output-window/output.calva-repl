@@ -5,7 +5,6 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; nREPL Connection was closed
 ; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.25.8"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
 ; Hooking up nREPL sessions...
 ; Connected session: clj
@@ -16,15 +15,10 @@
 ;   - `alt+up` and `alt+down` traverse up and down the REPL command history
 ;      when the cursor is after the last contents at the prompt
 ;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉learnclojure.core꞉> 
+clj꞉learnclojure.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉learnclojure.core꞉> 
-; Syntax error compiling at (project.clj:60:13).
-; Unable to resolve symbol: guitarDimensions in this context
-clj꞉user꞉> 
 #'user/guitarDimensions
 clj꞉user꞉> 
-["nn" "nn"]
-clj꞉user꞉> 
-["nn" "nn"]
+["fz" "fz"]
 clj꞉user꞉> 
