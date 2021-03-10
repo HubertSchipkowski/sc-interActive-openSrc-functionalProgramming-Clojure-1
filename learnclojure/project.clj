@@ -56,6 +56,7 @@
 (str (guitarDimensions 5))
 
 (str (guitarDimensions 4))
+(str (guitarDimensions 3))
 
 ["nn", (str (guitarDimensions 0))] ; great, a hard-coded String and a function, 
 ; that returns a String from a previouly defined other vector, side by side as vector components
