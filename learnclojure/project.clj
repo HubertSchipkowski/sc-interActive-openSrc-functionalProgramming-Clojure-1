@@ -48,7 +48,7 @@
 
 [2,3,1] ; a nice vector
 
-(def guitarDimensions ["nn","fz","sz","fb","ts","bz"])
+(def guitarDimensions ["nn","fz","sz","fb","ts","bz", "apo|tir"])
 
 (get guitarDimensions 0)
 (get guitarDimensions 1)
@@ -57,6 +57,7 @@
 
 (str (guitarDimensions 4))
 (str (guitarDimensions 3))
+(str (guitarDimensions 6))
 
 ["nn", (str (guitarDimensions 0))] ; great, a hard-coded String and a function, 
 ; that returns a String from a previouly defined other vector, side by side as vector components
